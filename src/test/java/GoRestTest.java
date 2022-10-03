@@ -92,7 +92,6 @@ public class GoRestTest {
 
         HashMap<String, String> updatePostBody = new HashMap<>();
         updatePostBody.put("title", "Updated GeRest Test Post Title");
-        updatePostBody.put("body", "Updated GeRest Test Post Body");
 
         given()
                 .spec(reqSpec)
